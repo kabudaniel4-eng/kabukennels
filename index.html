@@ -3,102 +3,148 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KABUKENNELS | German Shepherd Puppies & Security Dogs in Kenya</title>
-
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="KABUKENNELS offers German Shepherd puppies for sale, stud services, and trained security dogs in Chwele, Kenya. Contact us today.">
-  <meta name="keywords" content="dog kennel Kenya, German Shepherd puppies Kenya, dogs for sale Kenya, stud services Kenya, dog breeders Kenya, security dogs Kenya, KABUKENNELS Chwele">
-  <meta name="author" content="KABUKENNELS">
-
-  <!-- Open Graph (Social Media Preview) -->
-  <meta property="og:title" content="KABUKENNELS - German Shepherd Puppies & Security Dogs">
-  <meta property="og:description" content="Trusted kennel in Chwele, Kenya. Puppies, stud services, and security dogs available.">
-  <meta property="og:image" content="https://kabudaniel4-eng.github.io/kabukennels/dog1.jpg">
-  <meta property="og:url" content="https://kabudaniel4-eng.github.io/kabukennels/">
-  <meta name="twitter:card" content="summary_large_image">
-
+  <title>KABUKENNELS</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #0a0a0a;
-      color: #fff;
+      background: #f4f6f8;
+      color: #333;
     }
     header {
-      background-color: #001f3f;
+      background: black;
+      color: #1e90ff;
       padding: 20px;
       text-align: center;
     }
     header h1 {
       margin: 0;
       font-size: 2.5em;
-      color: #00aaff;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #1e90ff;
     }
     section {
-      padding: 20px;
+      padding: 40px 20px;
+      text-align: center;
     }
-    .dog-card {
-      background: #111;
-      border: 2px solid #00aaff;
+    h2 {
+      color: black;
+      margin-bottom: 20px;
+    }
+    .dogs {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .dog {
+      border: 2px solid #1e90ff;
       border-radius: 10px;
+      width: 250px;
       padding: 15px;
-      margin: 15px 0;
+      background: white;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
     }
-    .dog-card img {
-      max-width: 100%;
+    .dog img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
       border-radius: 10px;
     }
     footer {
-      background-color: #001f3f;
+      background: black;
+      color: white;
       text-align: center;
       padding: 15px;
       margin-top: 20px;
     }
-    a {
-      color: #00aaff;
+    .contact-info p {
+      margin: 5px 0;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>KABUKENNELS</h1>
-    <p>P.O BOX 50200-300, Chwele, Kenya</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#available">Available Dogs</a>
+      <a href="#stud">Stud Services</a>
+      <a href="#security">Security Dogs</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <section>
-    <h2>🐶 Puppies for Sale</h2>
-    <div class="dog-card">
-      <img src="dog1.jpg" alt="German Shepherd Puppy">
-      <p>German Shepherd puppy, 3 months old, healthy and playful. Fully vaccinated and dewormed. Well-socialized with children and other pets. Perfect as a family companion or future guard dog.</p>
-    </div>
-    <div class="dog-card">
-      <img src="dog2.jpg" alt="German Shepherd Puppy">
-      <p>German Shepherd puppy, 4 months old, strong and energetic. Vaccinated and ready for a new home. Excellent temperament and intelligent.</p>
+  <section id="home">
+    <h2>Welcome to KABUKENNELS</h2>
+    <p>We specialize in quality German Shepherds and other breeds for sale, stud services, and trained security dogs.</p>
+  </section>
+
+  <section id="available">
+    <h2>Available Dogs for Sale</h2>
+    <div class="dogs">
+      <div class="dog">
+        <img src="dog1.jpg" alt="German Shepherd Puppy">
+        <h3>German Shepherd Puppy</h3>
+        <p>Age: 3 months</p>
+        <p>Price: Ksh 50,000</p>
+      </div>
+      <div class="dog">
+        <img src="dog2.jpg" alt="Rottweiler Puppy">
+        <h3>Rottweiler Puppy</h3>
+        <p>Age: 2 months</p>
+        <p>Price: Ksh 45,000</p>
+      </div>
     </div>
   </section>
 
-  <section>
-    <h2>🐕 Stud Services</h2>
-    <div class="dog-card">
-      <img src="stud1.jpg" alt="Stud Dog">
-      <p>Strong German Shepherd male, 2 years old, working line with excellent temperament. Proven sire with healthy litters. Available for stud services.</p>
+  <section id="stud">
+    <h2>Stud Services</h2>
+    <div class="dogs">
+      <div class="dog">
+        <img src="stud1.jpg" alt="German Shepherd Stud">
+        <h3>German Shepherd Male</h3>
+        <p>Strong lineage, available for stud.</p>
+      </div>
     </div>
   </section>
 
-  <section>
-    <h2>🔒 Security Dogs</h2>
-    <div class="dog-card">
-      <img src="security1.jpg" alt="Security Dog">
-      <p>Trained German Shepherd, 1.5 years old, loyal and highly alert. Obedient and protective, making him ideal for farm, business, or family security needs.</p>
+  <section id="security">
+    <h2>Security Dogs</h2>
+    <div class="dogs">
+      <div class="dog">
+        <img src="security1.jpg" alt="Trained Security Dog">
+        <h3>Trained Security Dog</h3>
+        <p>Highly trained, reliable property protection.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p><strong>Email:</strong> <a href="mailto:kabudaniel4@gmail.com">kabudaniel4@gmail.com</a></p>
+      <p><strong>Phone:</strong> +254 798-175-075</p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/254798175075" target="_blank">Chat with us</a></p>
+      <p><strong>Postal Address:</strong> P.O BOX 50200-300, CHWELE</p>
     </div>
   </section>
 
   <footer>
-    <p>📧 Email: <a href="mailto:kabudaniel4@gmail.com">kabudaniel4@gmail.com</a></p>
-    <p>📞 Phone: <a href="tel:+254798175075">+254 798 175 075</a></p>
-    <p>💬 WhatsApp: <a href="https://wa.me/254798175075" target="_blank">Chat on WhatsApp</a></p>
-    <p>&copy; 2025 KABUKENNELS. All Rights Reserved.</p>
+    <p>&copy; 2025 KABUKENNELS. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
